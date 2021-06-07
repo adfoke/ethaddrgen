@@ -10,7 +10,7 @@ import (
 
 func main(){
 	privateKey,err :=crypto.GenerateKey()
-	// privateKey,err:=crypto.HexToECDSA("fad9c8855b740a0b7ed4c221dbad0f33a83a49cad6b3fe8d5817ac83d38b6a19")
+	//privateKey,err:=crypto.HexToECDSA("398d5c35971651079f9328654a591632f1657ddb35d008dcd4cdf03acf2961ad")
 	if err != nil {
         log.Fatal(err)
     }
